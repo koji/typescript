@@ -10,5 +10,5 @@ $ create-react-app react-typescript
 
 install typescript
 ```
-$ npm install --save typescript @types/node @types/react-dom @types/jest
+$ npm install --save-dev typescript @types/node @types/react-dom @types/jest
 ```
