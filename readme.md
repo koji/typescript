@@ -1,4 +1,4 @@
-# typescript & reactjs
+# typescript starters
 
 typescript react+typescript     
 todoapp
