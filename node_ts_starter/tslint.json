@@ -1,0 +1,37 @@
+{
+    "extends": ["tslint:latest", "tslint-eslint-rules", "tslint-config-prettier"],
+    "linterOptions": {
+        "exclude": ["node_modules/**/*.ts"]
+    },
+    "defaultSeverity": "warning",
+    "jsRules": {
+        "no-empty": true
+    },
+    "rules": {
+        "await-promise": [true, "RequestPromise"],
+        "cyclomatic-complexity": [true, 15],
+        "interface-name": [true, "never-prefix"],
+        "interface-over-type-literal": false,
+        "match-default-export-name": true,
+        "member-access": [true, "no-public"],
+        "no-boolean-literal-compare": true,
+        "no-inferred-empty-object-type": true,
+        "no-floating-promises": true,
+        "no-implicit-dependencies": [true, "dev", ["~src"]],
+        "no-inferrable-types": [true, "ignore-params", "ignore-properties"],
+        "no-submodule-imports": false,
+        "no-unnecessary-callback-wrapper": true,
+        "no-unnecessary-type-assertion": true,
+        "no-console": [false],
+        "no-void-expression": [true, "ignore-arrow-function-shorthand"],
+        "object-literal-shorthand": false,
+        "object-literal-sort-keys": false,
+        "prefer-conditional-expression": false,
+        "promise-function-async": true,
+        "triple-equals": [true, "allow-undefined-check", "allow-null-check"],
+        "max-classes-per-file": [true, 1],
+        "ordered-imports": false,
+        "prefer-template": true
+    },
+    "rulesDirectory": []
+}

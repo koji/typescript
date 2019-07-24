@@ -1,6 +1,39 @@
 {
   "name": "node_ts_starter",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "description": "```zsh # init project $ yarn init",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js || true",
+    "lint": "tslint -p tsconfig.json",
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist/*",
+    "dev": "ts-node ./src/index.ts",
+    "test": "CONFIG_MODE=test jest",
+    "clean-jest": "jest --clearCache"
+  },
+  "author": "koji kanao",
+  "license": "MIT",
+  "keywords": [
+    "Typescript",
+    "nodejs",
+    "starterkit"
+  ],
+  "dependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.17.0",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.8",
+    "@types/supertest": "^2.0.8",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.5.3"
+  }
 }
