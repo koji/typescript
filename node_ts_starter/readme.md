@@ -10,7 +10,7 @@ $ tsc --init
 $ yarn add body-parser express 
 
 # install packages devDependencies
-$ yarn add  @types/body-parser @types/express @types/jest @types/node @types/supertest jest supertest ts-jest tslint tslint-config-prettier tslint-eslint-rules typescript
+$ yarn add  @types/body-parser @types/express @types/jest @types/node @types/supertest jest supertest ts-jest tslint tslint-config-prettier tslint-eslint-rules typescript nodemon
 
 # create tslint.json
 $ touch tslint.json

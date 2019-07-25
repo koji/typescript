@@ -4,11 +4,12 @@
   "description": "```zsh # init project $ yarn init",
   "main": "dist/index.js",
   "scripts": {
-    "start": "node dist/index.js || true",
+    "start": "node ./dist/index.js || true",
     "lint": "tslint -p tsconfig.json",
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
     "build": "tsc -p tsconfig.json",
     "clean": "rm -rf dist/*",
+    "devjs": "nodemon ./dist/index.js",
     "dev": "ts-node ./src/index.ts",
     "test": "CONFIG_MODE=test jest",
     "clean-jest": "jest --clearCache"
@@ -35,5 +36,8 @@
     "tslint-config-prettier": "^1.18.0",
     "tslint-eslint-rules": "^5.4.0",
     "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
