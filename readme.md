@@ -1,4 +1,4 @@
 # typescript starters
 
-typescript react+typescript     
-todoapp
+### tools
+yarn & typescript
