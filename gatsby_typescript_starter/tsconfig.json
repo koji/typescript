@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    // "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es2017",
+    "jsx": "react",
+    // "rootDir": "src",
+    "suppressImplicitAnyIndexErrors": true,
+    "esModuleInterop": true,
+    "lib": ["dom", "es2015", "es2017"],
+    "strict": true
+  },
+  "include": [
+    "./src/**/*",
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ]
+}
