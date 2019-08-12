@@ -11,6 +11,7 @@
     "clean": "rm -rf dist/*",
     "devjs": "nodemon ./dist/index.js",
     "dev": "ts-node ./src/index.ts",
+    "dev:watch" "nodemon",
     "test": "CONFIG_MODE=test jest",
     "clean-jest": "jest --clearCache"
   },
