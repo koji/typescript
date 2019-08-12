@@ -18,4 +18,7 @@ $ touch tslint.json
 # create jest.config.js
 touch jest.config.js
 
+# nodemon
+$ yarn dev:watch
+
 ```
