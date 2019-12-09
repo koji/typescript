@@ -1,0 +1,14 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "gatsby_typescript_starter/package.json",
+        "node_typescript/package.json",
+        "todoapp/package.json",
+        "webpack_typescript/package.json",
+        "webpack_typescript_react/package.json",
+        "wepback_typescript_threejs/package.json"
+      ]
+    }
+  }
+}
