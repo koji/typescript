@@ -39,10 +39,6 @@ void main()
 
     gl_FragColor = vec4(color, 1.0);
 }
-
-
-
-
 `;
 
 const MyShader: React.FC = () => {
