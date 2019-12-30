@@ -16,7 +16,6 @@ void main()
     vec2 st = coord;
     vec3 line = vec3(0.0);
 
-    // coord *= 20.;
     coord *= 4.;
 
     float len;
