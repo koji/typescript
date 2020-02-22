@@ -1,21 +1,30 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const path = require('path');
+
 module.exports = {
-    mode: "development",
-    entry: "./src/main.ts",
-    output: {
-        path: `${__dirname}/dist`,
-        filename: "bundle.js"
-    },
-    devServer: {
-        contentBase: "./",
-        open: true
-    },
-    module: {
-        rules: [{
-            test: /\.ts$/,
-            use: "ts-loader"
-        }]
-    },
-    resolve: {
-        extensions: [".ts",".js"]
-    }
+  mode: 'development',
+  entry: './src/main.ts',
+  output: {
+    contentBase: './dist',
+  },
+  devServer: {
+    contentBase: './dist',
+    open: true,
+  },
+  module: {
+    rules: [
+      {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
+      },
+    ],
+  },
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js'],
+  },
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+  },
 };
