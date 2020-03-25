@@ -9,10 +9,10 @@ const FCObjectDisplay =() => {
   const [name, setName] = useState<person>({ firstName: '', lastName: ''});
 
   const handleFirstName = (e: React.FormEvent<HTMLInputElement>) => {
-    setName({ ...name, firstName: e.currentTarget.value })
+    setName({ ...name, firstName: e.currentTarget.value });
   }
   const handleLastName = (e: React.FormEvent<HTMLInputElement>) => {
-    setName({ ...name, lastName: e.currentTarget.value })
+    setName({ ...name, lastName: e.currentTarget.value });
   }
   return (
     <div>
