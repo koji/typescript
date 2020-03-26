@@ -1,1 +1,8 @@
-console.log("hello world");
+import { sleep } from './sleep';
+
+(async () => {
+  await sleep(5000);
+  console.log("hello world");
+})();
+
+
