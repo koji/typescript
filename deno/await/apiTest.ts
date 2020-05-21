@@ -1,7 +1,7 @@
 // deno run --allow-net apiTest.ts
 
 // api.openweathermap.org/data/2.5/weather?q={city name}&appid={your api key}
-const fetchData = async(city: string) => {
+const fetchWeatherData = async(city: string) => {
   const baseUrl = "http://api.openweathermap.org/data/2.5/weather?q=";
   const appId = "";
   const url = `${baseUrl}${city}&appid=${appId}`;
@@ -12,4 +12,14 @@ const fetchData = async(city: string) => {
   console.log("======data======");
 }
 
-fetchData('london');
+fetchWeatherData('london');
+
+
+const fetchIPAddressInfo = async(ipAddress: string) => {
+  const url = `http://ip-api.com/json/${ipAddress}`;
+  const res = await fetch(url);
+  const body = await res.json();
+  console.log(body);
+}
+
+fetchIPAddressInfo('1.1.1.1');
