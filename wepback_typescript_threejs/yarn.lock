@@ -76,15 +76,15 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
-"@typescript-eslint/eslint-plugin@^2.20.0":
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-2.20.0.tgz#a522d0e1e4898f7c9c6a8e1ed3579b60867693fa"
-  integrity sha512-cimIdVDV3MakiGJqMXw51Xci6oEDEoPkvh8ggJe2IIzcc0fYqAxOXN6Vbeanahz6dLZq64W+40iUEc9g32FLDQ==
+"@typescript-eslint/eslint-plugin@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-3.0.0.tgz#02f8ec6b5ce814bda80dfc22463f108bed1f699b"
+  integrity sha512-lcZ0M6jD4cqGccYOERKdMtg+VWpoq3NSnWVxpc/AwAy0zhkUYVioOUZmfNqiNH8/eBNGhCn6HXd6mKIGRgNc1Q==
   dependencies:
-    "@typescript-eslint/experimental-utils" "2.20.0"
-    eslint-utils "^1.4.3"
+    "@typescript-eslint/experimental-utils" "3.0.0"
     functional-red-black-tree "^1.0.1"
     regexpp "^3.0.0"
+    semver "^7.3.2"
     tsutils "^3.17.1"
 
 "@typescript-eslint/experimental-utils@2.20.0":
