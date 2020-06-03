@@ -16,8 +16,9 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "lib": [
-      "es2018",
-      "dom"
+      "dom",
+      "dom.iterable",
+      "esnext"
     ]
   },
   "include": [
@@ -25,6 +26,7 @@
   ],
   "exclude": [
     "node_modules",
-    "**/*.spec.ts"
+    "**/*.spec.ts",
+    "dist"
   ]
 }
