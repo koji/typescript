@@ -14,5 +14,12 @@
 - shadereact
 
 ### react app
+- tidiaoo
+- quiz-app
+- github-app
+- graphQL_API
+
+### gatsby
+- gatsby_typescript_starter
 
 ### nodejs
