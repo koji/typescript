@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "ES6",
+        "module": "es2015",
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "DOM",
+            "es2020"
+        ],
+        "moduleResolution": "node",
+        "experimentalDecorators": true
+    }
+}
