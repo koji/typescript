@@ -7,6 +7,7 @@
 - webpack_typescript
 - webpack_typescript_react
 - webpack_typescript_threejs
+- webpack_typescript_vue
 
 ### react hooks
 - usestate
