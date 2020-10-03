@@ -19,6 +19,7 @@
 - quiz-app
 - github-app
 - graphQL_API
+- simple_blog_with_contentful using [Contentful⁠](https://www.contentful.com/developers/)
 
 ### gatsby
 - gatsby_typescript_starter
