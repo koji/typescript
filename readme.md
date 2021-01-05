@@ -20,6 +20,7 @@
 - github-app
 - graphQL_API
 - simple_blog_with_contentful using [Contentful⁠](https://www.contentful.com/developers/)
+- MyTimeline react app with Contentful [repo](https://github.com/koji/MyTimeline-with-reactjs)
 
 ### gatsby
 - gatsby_typescript_starter
