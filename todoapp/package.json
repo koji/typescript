@@ -21,7 +21,7 @@
     "react-dom": "^16.8.4",
     "webpack": "^4.29.6",
     "webpack-cli": "^4.0.0",
-    "webpack-dev-server": "^4.0.0"
+    "webpack-dev-server": "^4.1.0"
   },
   "devDependencies": {
     "@types/react": "^16.8.7",
