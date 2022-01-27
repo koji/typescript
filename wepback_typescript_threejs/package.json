@@ -34,7 +34,7 @@
     "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
-    "three": "^0.132.0"
+    "three": "^0.137.0"
   },
   "lint-staged": {
     "*.ts": [
