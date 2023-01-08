@@ -10,23 +10,23 @@ const FCCounter = () => {
 
   // +1
   const handleIncrement = () => {
-    setCount((prevCounter) => {counter: prevCounter.counter + 1});
-  }
+    setCount((prevCounter) => ({ counter: prevCounter.counter + 1 }));
+  };
 
   // -1
   const handleDecrement = () => {
-    setCount((prevCounter) => {counter: prevCounter.counter - 1});
-  }
+    setCount((prevCounter) => ({ counter: prevCounter.counter - 1 }));
+  };
 
   // reset count
   const handleReset = () => {
     setCount({ counter: initialValue });
-  }
+  };
 
   // +10
   const incrementTen = () => {
-    setCount((prevCounter) => {counter: prevCounter.counter + 10});
-  }
+    setCount((prevCounter) => ({ counter: prevCounter.counter + 10 }));
+  };
 
   return (
     <div>
