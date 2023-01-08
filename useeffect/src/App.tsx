@@ -12,24 +12,29 @@ const App = () => {
   useEffect(() => {
     window.addEventListener('resize', handleResize)
     console.log('width', windowWidth)
-  }, []);
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
 
   // when resourceType is changed, call console.log (with [resourceType])
   // when render, call console.log (without [resourceType])
   useEffect(() => {
-    console.log('resourceType is changed');
-    const getUserData = async() => {
+    console.log('resourceType is changed')
+    const getUserData = async () => {
       try {
-        const resp = await fetch(`https://jsonplaceholder.typicode.com/${resourceType}`);
-        const data = await resp.json();
-        setItems(data);
-        console.log(data);
+        const resp = await fetch(
+          `https://jsonplaceholder.typicode.com/${resourceType}`
+        )
+        const data = await resp.json()
+        setItems(data)
+        console.log(data)
       } catch (error) {
-        console.log(error);
+        console.log(error)
       }
     }
-    getUserData();
-  }, [resourceType]);
+    getUserData()
+  }, [resourceType])
 
   // useEffect(() => {
   //   console.log('render');
@@ -45,11 +50,10 @@ const App = () => {
   // useEffect(() => {
   //   console.log('resource changed');
   //  return () => {
-        // clean up
+  // clean up
   //    console.log('return');
   //  }
   // }, [resourceType]);
-
 
   return (
     <>
@@ -60,11 +64,11 @@ const App = () => {
       </div>
       <h1>{resourceType}</h1>
       <h2>{windowWidth}</h2>
-      {items.map((item:any) => {
-        return <pre>{JSON.stringify(item)}</pre>
+      {items.map((item: any, index: number) => {
+        return <pre key={index}>{JSON.stringify(item)}</pre>
       })}
     </>
-  );
+  )
 }
 
 export default App;
