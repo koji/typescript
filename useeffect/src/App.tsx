@@ -15,7 +15,7 @@ const App = () => {
     return () => {
       window.removeEventListener('resize', handleResize)
     }
-  }, [handleResize])
+  }, [])
 
   // when resourceType is changed, call console.log (with [resourceType])
   // when render, call console.log (without [resourceType])
