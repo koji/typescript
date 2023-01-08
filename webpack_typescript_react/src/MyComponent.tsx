@@ -19,8 +19,8 @@ export class MyComponent extends React.Component<Props, State> {
 
     handleClick() {
         console.log("clicked");
-        this.setState({
-            counter: this.state.counter + 1,
+        this.setState((prevState: State) =>{
+            return {counter: prevState.counter  + 1,}
         });
     }
 

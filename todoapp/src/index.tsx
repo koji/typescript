@@ -28,7 +28,7 @@ export default function App():JSX.Element  {
     newTodos[index].complete = !newTodos[index].complete;
     setTodos(newTodos);
   }
-  
+
   const removeTodo = (index: number): void => {
     const newTodos: iToDO[] = [...todos];
     newTodos.splice(index, 1); // remove one
@@ -49,21 +49,25 @@ export default function App():JSX.Element  {
       <section>
         {
           todos.map((todo: iToDO, index:number)=> {
-            return <Fragment>
-              <div
-                style={{ textDecoration: todo.complete 
-                  ? 'line-through' 
-                  : '' }}
-              >
-                {todo.text}
-              </div>
-              <button type='button' onClick={() => completeToDo(index)}>
-                {''}
-                {todo.complete ? 'Incomplete' : 'Complete'}
-                {''}
-              </button>
-              <button type='button' onClick={()=> removeTodo(index)}>&times;</button>
-            </Fragment>
+            return (
+              <Fragment key={`todo-${index}`}>
+                <div
+                  style={{
+                    textDecoration: todo.complete ? 'line-through' : '',
+                  }}
+                >
+                  {todo.text}
+                </div>
+                <button type='button' onClick={() => completeToDo(index)}>
+                  {''}
+                  {todo.complete ? 'Incomplete' : 'Complete'}
+                  {''}
+                </button>
+                <button type='button' onClick={() => removeTodo(index)}>
+                  &times;
+                </button>
+              </Fragment>
+            )
           })
         }
       </section>
