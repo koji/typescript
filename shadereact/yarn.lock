@@ -9841,12 +9841,12 @@ react-scripts@3.4.4:
   optionalDependencies:
     fsevents "2.1.2"
 
-react-vfx@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/react-vfx/-/react-vfx-0.1.1.tgz#311df2bfcd8ac05edbb45206940316194f610a42"
-  integrity sha512-VsxmoxslKkjHXLr7g4MYRVnusUQHXaY8O53orof9YTKdLynZCSZrqzK96VwD40HYP3NPE6kJdWBng1ISFPFWGQ==
+react-vfx@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/react-vfx/-/react-vfx-0.5.0.tgz#97fcfc1b19f60eb122bc7aed393bf967f71db82e"
+  integrity sha512-qqcFrAcZakgnWgW/JYhw5EAJ5dD+I3VeOmO0SNiD15vvvUTU2bGl9/BTSr8M6kSyfqZdwuYWVrhjI0Yw4R+d+g==
   dependencies:
-    three "^0.111.0"
+    three "^0.130.1"
 
 react@^16.12.0:
   version "16.12.0"
@@ -11297,10 +11297,10 @@ text-table@0.2.0, text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-three@^0.111.0:
-  version "0.111.0"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.111.0.tgz#9cedb73e79b7f6bf2440cb67a273f883faa923b6"
-  integrity sha512-AcTqyGJ3H75AIusOuADy0LsP958QKQwm/YhABHFMzd6RFXPNVay1rlSbbG6WYv7KM72G2THMMwqbjQd4dVHMkQ==
+three@^0.130.1:
+  version "0.130.1"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.130.1.tgz#797588b2877ace31603bbbc864eb2e3022f0b3b4"
+  integrity sha512-OSPPKcGvFSiGkG3jFrwwC76PBV/ZSrGxpBbg28bW8s9GU8r/y2spNGtEXHEb/CVqo0Ctf5Lx2rVaxQZB6OasaA==
 
 throat@^4.0.0:
   version "4.1.0"
