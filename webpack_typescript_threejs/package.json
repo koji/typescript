@@ -20,21 +20,21 @@
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
     "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^4.3.0",
+    "html-webpack-plugin": "^4.5.2",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.7",
     "postcss-loader": "^3.0.0",
     "prettier": "^2.0.0",
     "style-loader": "^1.2.1",
     "ts-loader": "^6.0.1",
-    "typescript": "^3.4.5",
+    "typescript": "3.4.5",
     "url-loader": "^4.0.0",
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
-    "three": "^0.137.0"
+    "three": "^0.148.0"
   },
   "lint-staged": {
     "*.ts": [

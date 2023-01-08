@@ -6,7 +6,8 @@ window.addEventListener('DOMContentLoaded', () => {
   const dispHeight = 800;
   renderer.setSize(dispWidth, dispHeight);
 
-  document.body.appendChild(renderer.domElement);
+  const targetDomElement = document.getElementById('content');
+  targetDomElement.appendChild(renderer.domElement);
 
   const scene = new THREE.Scene();
 
