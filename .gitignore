@@ -1,4 +1,8 @@
 node_modules/
 .DS_Store
-webpack_typescript_vue/dist/bundle.js
+webpack_typescript_vue/dist/
 simple_blog_with_contentful/.env.development
+webpack_typescript_threejs/dist/
+webpack_typescript/dist/
+webpack_typescript_react/dist/
+webpack_typescript_vue/dist/
