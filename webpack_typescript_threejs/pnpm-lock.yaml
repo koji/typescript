@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/node': ^18.11.18
   '@typescript-eslint/eslint-plugin': ^3.1.0
   '@typescript-eslint/parser': ^3.1.0
   eslint: ^6.8.0
@@ -25,6 +26,7 @@ dependencies:
   three: 0.148.0
 
 devDependencies:
+  '@types/node': 18.11.18
   '@typescript-eslint/eslint-plugin': 3.10.1_mju2e42fejajfl64eab73o2sia
   '@typescript-eslint/parser': 3.10.1_4jzipp5rwfxfsieyamwqdovtjm
   eslint: 6.8.0
