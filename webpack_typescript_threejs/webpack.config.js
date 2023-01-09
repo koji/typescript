@@ -6,7 +6,8 @@ module.exports = {
   mode: 'development',
   entry: './src/main.ts',
   output: {
-    contentBase: './dist',
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
   },
   devServer: {
     contentBase: './dist',
@@ -23,10 +24,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
-  },
-  output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
   },
   plugins: [
     new HtmlWebpackPlugin({
