@@ -8,7 +8,7 @@ specifiers:
   '@types/react-dom': ^16.9.14
   '@typescript-eslint/eslint-plugin': ^3.1.0
   '@typescript-eslint/parser': ^3.1.0
-  autoprefixer: ^9.8.0
+  autoprefixer: ^10.0.0
   babel-loader: ^8.1.0
   css-loader: ^3.5.3
   eslint: ^7.1.0
@@ -41,7 +41,7 @@ devDependencies:
   '@babel/preset-react': 7.18.6_@babel+core@7.20.12
   '@typescript-eslint/eslint-plugin': 3.10.1_kxujzhw6vbtdri44htsqryf25e
   '@typescript-eslint/parser': 3.10.1_2de3j2mqba4wgeuiaqz2k7syrm
-  autoprefixer: 9.8.8
+  autoprefixer: 10.4.13
   babel-loader: 8.3.0_nwtvwtk5tmh22l2urnqucz7kqu
   css-loader: 3.6.0_webpack@4.46.0
   eslint: 7.32.0
@@ -1948,16 +1948,18 @@ packages:
     hasBin: true
     dev: true
 
-  /autoprefixer/9.8.8:
-    resolution: {integrity: sha512-eM9d/swFopRt5gdJ7jrpCwgvEMIayITpojhkkSMRsFHYuH5bkSQ4p/9qTEHtmNudUZh22Tehu7I6CxAW0IXTKA==}
+  /autoprefixer/10.4.13:
+    resolution: {integrity: sha512-49vKpMqcZYsJjwotvt4+h/BCjJVnhGwcLpDt5xkcaOG3eLrG/HUYLagrihYsQ+qrIBgIzX1Rw7a6L8I/ZA1Atg==}
+    engines: {node: ^10 || ^12 || >=14}
     hasBin: true
+    peerDependencies:
+      postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.4
       caniuse-lite: 1.0.30001442
+      fraction.js: 4.2.0
       normalize-range: 0.1.2
-      num2fraction: 1.2.2
-      picocolors: 0.2.1
-      postcss: 7.0.39
+      picocolors: 1.0.0
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -3673,6 +3675,10 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
+  /fraction.js/4.2.0:
+    resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
+    dev: true
+
   /fragment-cache/0.2.1:
     resolution: {integrity: sha512-GMBAbW9antB8iZRHLoGw0b3HANt57diZYFO/HL1JGIC1MjKrdmhxvrJbupnVvpys0zsz7yBApXdQyfepKly2kA==}
     engines: {node: '>=0.10.0'}
@@ -5091,10 +5097,6 @@ packages:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
     dependencies:
       boolbase: 1.0.0
-    dev: true
-
-  /num2fraction/1.2.2:
-    resolution: {integrity: sha512-Y1wZESM7VUThYY+4W+X4ySH2maqcA+p7UR+w8VWNWVAd6lwuXXWz/w/Cz43J/dI2I+PS6wD5N+bJUF+gjWvIqg==}
     dev: true
 
   /object-assign/4.1.1:
