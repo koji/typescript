@@ -23,11 +23,11 @@ class ClassArrayDisplay extends React.Component <Props, State> {
   addItem = () => {
     const id = this.state.items.length;
     const value = Math.floor(Math.random() * 100) + 1;
-    const tmpItems = this.state.items;
-    const newItem = {id: id, value: value};
-    tmpItems.push(newItem);
-    this.setState({
-      items: tmpItems
+    const newItem = { id: id, value: value };
+    this.setState((prevState: State) => {
+      return {
+        items: [...prevState.items, newItem],
+      };
     });
   }
   render() {
