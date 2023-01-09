@@ -5,7 +5,7 @@ specifiers:
   '@testing-library/react': ^9.3.2
   '@testing-library/user-event': ^7.1.2
   '@types/jest': ^24.0.0
-  '@types/marked': ^1.1.0
+  '@types/marked': ^4.0.0
   '@types/node': ^12.0.0
   '@types/react': ^16.9.0
   '@types/react-dom': ^16.9.0
@@ -32,7 +32,7 @@ dependencies:
   typescript: 3.7.7
 
 devDependencies:
-  '@types/marked': 1.2.2
+  '@types/marked': 4.0.8
 
 packages:
 
@@ -2021,8 +2021,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: false
 
-  /@types/marked/1.2.2:
-    resolution: {integrity: sha512-wLfw1hnuuDYrFz97IzJja0pdVsC0oedtS4QsKH1/inyW9qkLQbXgMUqEQT0MVtUBx3twjWeInUfjQbhBVLECXw==}
+  /@types/marked/4.0.8:
+    resolution: {integrity: sha512-HVNzMT5QlWCOdeuBsgXP8EZzKUf0+AXzN+sLmjvaB3ZlLqO+e4u0uXrdw9ub69wBKFs+c6/pA4r9sy6cCDvImw==}
     dev: true
 
   /@types/minimatch/5.1.2:
