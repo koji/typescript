@@ -1,7 +1,7 @@
 # typescript starters
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/koji/typescript.svg)](https://greenkeeper.io/)
-
+[![DeepScan grade](https://deepscan.io/api/teams/19471/projects/23480/branches/713774/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=19471&pid=23480&bid=713774)
 
 ### webpack
 - webpack_typescript
