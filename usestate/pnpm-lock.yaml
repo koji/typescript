@@ -12,7 +12,7 @@ specifiers:
   '@typescript-eslint/parser': ^3.1.0
   autoprefixer: ^9.8.0
   eslint: ^7.1.0
-  eslint-config-prettier: ^6.11.0
+  eslint-config-prettier: ^8.0.0
   eslint-plugin-prettier: ^4.0.0
   eslint-plugin-react: ^7.20.0
   react: ^16.13.1
@@ -38,8 +38,8 @@ devDependencies:
   '@typescript-eslint/parser': 3.10.1_2de3j2mqba4wgeuiaqz2k7syrm
   autoprefixer: 9.8.8
   eslint: 7.32.0
-  eslint-config-prettier: 6.15.0_eslint@7.32.0
-  eslint-plugin-prettier: 4.2.1_vppcjqfxvgohedulpoiay6sy3a
+  eslint-config-prettier: 8.6.0_eslint@7.32.0
+  eslint-plugin-prettier: 4.2.1_xf5cj7cx6yjsqxx3vfwxg2m5bm
   eslint-plugin-react: 7.31.11_eslint@7.32.0
 
 packages:
@@ -4539,14 +4539,13 @@ packages:
       source-map: 0.6.1
     dev: false
 
-  /eslint-config-prettier/6.15.0_eslint@7.32.0:
-    resolution: {integrity: sha512-a1+kOYLR8wMGustcgAjdydMsQ2A/2ipRPwRKUmfYaSxc9ZPcrku080Ctl6zrZzZNs/U82MjSv+qKREkoq3bJaw==}
+  /eslint-config-prettier/8.6.0_eslint@7.32.0:
+    resolution: {integrity: sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==}
     hasBin: true
     peerDependencies:
-      eslint: '>=3.14.1'
+      eslint: '>=7.0.0'
     dependencies:
       eslint: 7.32.0
-      get-stdin: 6.0.0
     dev: true
 
   /eslint-config-react-app/7.0.1_osgtgls3myx3m2sugqf5w2gpqu:
@@ -4710,7 +4709,7 @@ packages:
       semver: 6.3.0
     dev: false
 
-  /eslint-plugin-prettier/4.2.1_vppcjqfxvgohedulpoiay6sy3a:
+  /eslint-plugin-prettier/4.2.1_xf5cj7cx6yjsqxx3vfwxg2m5bm:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -4722,7 +4721,7 @@ packages:
         optional: true
     dependencies:
       eslint: 7.32.0
-      eslint-config-prettier: 6.15.0_eslint@7.32.0
+      eslint-config-prettier: 8.6.0_eslint@7.32.0
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -5277,11 +5276,6 @@ packages:
     resolution: {integrity: sha512-pjzuKtY64GYfWizNAJ0fr9VqttZkNiK2iS430LtIHzjBEr6bX8Am2zm4sW4Ro5wjWW5cAlRL1qAMTcXbjNAO2Q==}
     engines: {node: '>=8.0.0'}
     dev: false
-
-  /get-stdin/6.0.0:
-    resolution: {integrity: sha512-jp4tHawyV7+fkkSKyvjuLZswblUtz+SQKzSWnBbii16BuZksJlU1wuBYXY75r+duh/llF1ur6oNwi+2ZzjKZ7g==}
-    engines: {node: '>=4'}
-    dev: true
 
   /get-stream/6.0.1:
     resolution: {integrity: sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==}
