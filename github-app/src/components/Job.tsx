@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Card, Badge, Button, Collapse } from "react-bootstrap";
-// import { JobData } from "../Types";
 import ReactMarkdown from 'react-markdown';
 
 // ToDo props
@@ -38,7 +37,7 @@ export const Job = ({job}: any) => {
         <Card.Text>
           <Button
             onClick={() => setOpen((prevOpen) => !prevOpen)}
-            variant="primary"
+            variant="info"
           >
             {open ? "Hide Details" : "View Details"}
           </Button>
