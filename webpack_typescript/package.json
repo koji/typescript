@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "autoprefixer": "^10.0.0",
-    "html-webpack-plugin": "^4.5.2"
+    "html-webpack-plugin": "^5.0.0"
   }
 }
