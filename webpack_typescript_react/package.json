@@ -21,7 +21,7 @@
     "autoprefixer": "^10.0.0",
     "babel-loader": "^9.0.0",
     "css-loader": "^6.0.0",
-    "eslint": "^7.1.0",
+    "eslint": "^8.0.0",
     "eslint-config-prettier": "^8.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.20.0",
