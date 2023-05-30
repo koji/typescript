@@ -5,7 +5,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^3.1.0
   '@typescript-eslint/parser': ^3.1.0
   eslint: ^6.8.0
-  eslint-config-prettier: ^6.10.0
+  eslint-config-prettier: ^8.0.0
   eslint-plugin-prettier: ^4.0.0
   file-loader: ^6.0.0
   html-webpack-plugin: ^4.5.2
@@ -30,8 +30,8 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 3.10.1_kxihgrnztslsp7xsrkh6vwfspq
   '@typescript-eslint/parser': 3.10.1_z6m2zvrkqxyghb4a2ijhravsdi
   eslint: 6.8.0
-  eslint-config-prettier: 6.15.0_eslint@6.8.0
-  eslint-plugin-prettier: 4.2.1_phgf5jec6caivq6u6w3kcdspl4
+  eslint-config-prettier: 8.6.0_eslint@6.8.0
+  eslint-plugin-prettier: 4.2.1_pmtk4zis4xg4jhuozd7qdtyeoq
   file-loader: 6.2.0_webpack@4.46.0
   html-webpack-plugin: 4.5.2_webpack@4.46.0
   husky: 8.0.3
@@ -1738,17 +1738,16 @@ packages:
     engines: {node: '>=0.8.0'}
     dev: true
 
-  /eslint-config-prettier/6.15.0_eslint@6.8.0:
-    resolution: {integrity: sha512-a1+kOYLR8wMGustcgAjdydMsQ2A/2ipRPwRKUmfYaSxc9ZPcrku080Ctl6zrZzZNs/U82MjSv+qKREkoq3bJaw==}
+  /eslint-config-prettier/8.6.0_eslint@6.8.0:
+    resolution: {integrity: sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==}
     hasBin: true
     peerDependencies:
-      eslint: '>=3.14.1'
+      eslint: '>=7.0.0'
     dependencies:
       eslint: 6.8.0
-      get-stdin: 6.0.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_phgf5jec6caivq6u6w3kcdspl4:
+  /eslint-plugin-prettier/4.2.1_pmtk4zis4xg4jhuozd7qdtyeoq:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1760,7 +1759,7 @@ packages:
         optional: true
     dependencies:
       eslint: 6.8.0
-      eslint-config-prettier: 6.15.0_eslint@6.8.0
+      eslint-config-prettier: 8.6.0_eslint@6.8.0
       prettier: 2.8.2
       prettier-linter-helpers: 1.0.0
     dev: true
@@ -2331,11 +2330,6 @@ packages:
 
   /get-own-enumerable-property-symbols/3.0.2:
     resolution: {integrity: sha512-I0UBV/XOz1XkIJHEUDMZAbzCThU/H8DxmSfmdGcKPnVhu2VfFqr34jr9777IyaTYvxjedWhqVIilEDsCdP5G6g==}
-    dev: true
-
-  /get-stdin/6.0.0:
-    resolution: {integrity: sha512-jp4tHawyV7+fkkSKyvjuLZswblUtz+SQKzSWnBbii16BuZksJlU1wuBYXY75r+duh/llF1ur6oNwi+2ZzjKZ7g==}
-    engines: {node: '>=4'}
     dev: true
 
   /get-stream/4.1.0:
