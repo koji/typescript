@@ -7,15 +7,15 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "@types/jest": "^24.9.1",
-    "@types/node": "^12.20.55",
-    "@types/react": "^16.14.68",
-    "@types/react-dom": "^16.9.25",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "@types/node": "25.0.3",
+    "@types/react": "^18.0.38",
+    "@types/react-dom": "^18.0.11",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-scripts": "3.4.4",
-    "react-vfx": "^0.5.0",
+    "react-vfx": "0.13.0",
     "styled-components": "^4.4.1",
-    "typescript": "~3.9.10"
+    "typescript": "5.9.3"
   },
   "scripts": {
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",

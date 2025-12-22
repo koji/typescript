@@ -8,6 +8,7 @@ const Content = styled.div`
 `;
 
 const metal = `
+precision highp float;
 uniform vec2 resolution;
 uniform float time;
 void main()
