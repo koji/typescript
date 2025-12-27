@@ -16,7 +16,7 @@
     "react-dom": "^16.13.1",
     "react-markdown": "^4.3.1",
     "react-scripts": "3.4.4",
-    "typescript": "^3.9.7"
+    "typescript": "5.9.3"
   },
   "scripts": {
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
