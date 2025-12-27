@@ -15,7 +15,7 @@
     "react-scripts": "3.4.4",
     "react-vfx": "0.13.0",
     "styled-components": "^4.4.1",
-    "typescript": "5.9.3"
+    "typescript": "^5.9.3"
   },
   "scripts": {
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",

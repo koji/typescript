@@ -36,7 +36,7 @@
     "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-eslint-rules": "^5.4.0",
-    "typescript": "^3.9.10"
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"

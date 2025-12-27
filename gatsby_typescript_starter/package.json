@@ -30,6 +30,6 @@
     "tslint": "^5.18.0",
     "tslint-loader": "^3.5.4",
     "tslint-react": "^5.0.0",
-    "typescript": "^3.5.3"
+    "typescript": "^5.9.3"
   }
 }
