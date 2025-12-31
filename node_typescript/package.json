@@ -23,22 +23,23 @@
     "starterkit"
   ],
   "dependencies": {
-    "@types/body-parser": "^1.19.1",
-    "@types/express": "^4.17.13",
+    "@types/body-parser": "^1.19.6",
+    "@types/express": "^4.17.25",
     "@types/jest": "^25.2.3",
-    "@types/node": "^14.17.16",
-    "@types/supertest": "^2.0.11",
-    "body-parser": "^1.19.0",
-    "express": "^4.17.3",
-    "jest": "^26.0.0",
+    "@types/node": "^14.18.63",
+    "@types/supertest": "^2.0.16",
+    "body-parser": "^1.20.4",
+    "express": "^4.22.1",
+    "jest": "^26.6.3",
     "supertest": "^4.0.2",
     "ts-jest": "^26.5.6",
-    "tslint": "^5.18.0",
+    "ts-node": "^10.9.2",
+    "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
     "tslint-eslint-rules": "^5.4.0",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.22"
   }
 }
