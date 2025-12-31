@@ -1,5 +1,5 @@
 import * as e from 'express';
-import * as graphqlHTTP from "express-graphql";
+import { graphqlHTTP } from "express-graphql";
 import { GraphQLSchema } from "graphql";
 import { queryType } from "./fields";
 
