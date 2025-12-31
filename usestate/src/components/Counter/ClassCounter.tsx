@@ -1,7 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-interface Props {
-}
+interface Props { }
 
 interface State {
   counter: number;

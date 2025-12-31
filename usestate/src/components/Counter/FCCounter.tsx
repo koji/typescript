@@ -6,7 +6,7 @@ interface Counter {
 
 const FCCounter = () => {
   const initialValue = 0;
-  const [counter, setCount] = useState<Counter>({ counter: initialValue}); // initial value 0
+  const [counter, setCount] = useState<Counter>({ counter: initialValue }); // initial value 0
 
   // +1
   const handleIncrement = () => {
@@ -32,17 +32,14 @@ const FCCounter = () => {
     <div>
       <h1>class component</h1>
       <p>Count {counter.counter}</p>
-      <br/>
+      <br />
       <button onClick={handleIncrement}>increment</button>
       <button onClick={handleDecrement}>decrement</button>
       <button onClick={handleReset}>reset</button>
-      <br/>
+      <br />
       <button onClick={incrementTen}>increment10</button>
     </div>
-  )
-}
+  );
+};
 
-export {
-  FCCounter
-}
-
+export { FCCounter };
