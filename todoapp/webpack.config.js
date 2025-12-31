@@ -18,7 +18,7 @@ module.exports = {
   module: { rules },
   resolve: {extensions: ['.ts', '.tsx', '.js']},
   devServer: {
-      contentBase: './',
+      static: './',
       port: 5555
   }
 }
