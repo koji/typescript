@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-// import { ClassCounter, FCCounter } from './components/Counter';
 import { ClassObjectDisplay, FCObjectDisplay } from './components/Object';
-// import { ClassArrayDisplay, FCArrayDisplay } from './components/Array';
 
 function App() {
   return (
@@ -11,15 +9,12 @@ function App() {
         {/* <ClassCounter/>
         <br/>
         <FCCounter /> */}
-
-        <ClassObjectDisplay/>
+        <ClassObjectDisplay />
         <br />
         <FCObjectDisplay />
-
         {/* <ClassArrayDisplay/>
         <br />
         <FCArrayDisplay/> */}
-
       </header>
     </div>
   );

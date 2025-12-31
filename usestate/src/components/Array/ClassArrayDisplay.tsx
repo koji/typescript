@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 interface Item {
   id: number;
@@ -7,17 +7,17 @@ interface Item {
 
 interface State {
   items: Item[];
-};
+}
 
-interface Props {}
+interface Props { }
 
-class ClassArrayDisplay extends React.Component <Props, State> {
+class ClassArrayDisplay extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
 
     this.state = {
       items: [],
-    }
+    };
   }
 
   addItem = () => {
@@ -29,22 +29,22 @@ class ClassArrayDisplay extends React.Component <Props, State> {
         items: [...prevState.items, newItem],
       };
     });
-  }
+  };
   render() {
     return (
       <div>
         <h1>class component</h1>
         <button onClick={this.addItem}>Add</button>
         <ul>
-          {this.state.items.map(item => (
-            <li key={item.id}>id:{item.id} {item.value}</li>
+          {this.state.items.map((item) => (
+            <li key={item.id}>
+              id:{item.id} {item.value}
+            </li>
           ))}
         </ul>
-    </div>
-    )
+      </div>
+    );
   }
 }
 
-export {
-  ClassArrayDisplay
-}
+export { ClassArrayDisplay };
